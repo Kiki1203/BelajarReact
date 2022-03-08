@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import State1 from './State';
+// import Component1 from './ClassComponent';
+// import Component2 from './FunctionComponent';
+import Counting from './Counting';
+import Sapa from './nyapa';
+import OnChange from './onChange';
+import FetchData from './FetchData';
+import LifeCycleMathod from './LifeCycleMathod';
+import FakeServer from './FakeServer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Component1 />
+      <Component2 />
+      <State1 /> */}
+
+      {/* <Counting /> */}
+      {/* <Sapa /> */}
+      {/* <OnChange /> */}
+      {/* <FetchData /> */}
+      {/* <LifeCycleMathod /> */}
+      <FakeServer />
     </div>
   );
 }
